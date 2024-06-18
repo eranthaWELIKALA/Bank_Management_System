@@ -27,8 +27,10 @@ Ensure you have the following software installed:
 
 ### Installation
 1. Clone the repository:
-| git clone https://github.com/your-username/bank-management-system.git
-| cd bank-management-system
+```
+git clone https://github.com/your-username/bank-management-system.git
+cd bank-management-system
+```
 2. Set up the MySQL database:
 - Open your MySQL server.
 - Create a new database.
