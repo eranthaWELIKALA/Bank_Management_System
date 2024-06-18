@@ -90,6 +90,16 @@ bank-management-system/
 └── .gitignore
 ```
 
+## Screenshots
+
+![Bank Management System - Login](https://github.com/eranthaWELIKALA/Bank_Management_System/assets/33684206/abf2738b-d223-4a0c-bed4-11bc15251cd1)
+![Bank Management System - Signup](https://github.com/eranthaWELIKALA/Bank_Management_System/assets/33684206/43b28c21-2b37-49aa-afd1-8543793c12d5)
+![Bank Management System - Loading](https://github.com/eranthaWELIKALA/Bank_Management_System/assets/33684206/f675f491-ad8f-4966-a346-68fe83f7d0f1)
+![Bank Management System - Account](https://github.com/eranthaWELIKALA/Bank_Management_System/assets/33684206/e632d2c8-523f-4d62-8500-fe29a9f6ea78)
+![Bank Management System - Account - ViewBalance](https://github.com/eranthaWELIKALA/Bank_Management_System/assets/33684206/0bcda77b-3604-442a-8898-91325b61a6b8)
+![Bank Management System - Account - Transfer](https://github.com/eranthaWELIKALA/Bank_Management_System/assets/33684206/d85a7e9e-6426-48ab-abfc-4fd0a2c10c7e)
+![Bank Management System - Account - ChangePin](https://github.com/eranthaWELIKALA/Bank_Management_System/assets/33684206/5b0017c5-5f65-4ea0-b425-610ba381030f)
+
 
 ## Contributing
 Contributions are welcome! Please fork the repository and create a pull request with your changes.
