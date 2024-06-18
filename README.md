@@ -37,17 +37,24 @@ cd bank-management-system
 - Run the SQL script db_script.sql located in the database folder to create the necessary tables and insert sample data.
   - Example:
 ```
-CREATE DATABASE bank_db;
-USE bank_db;
-SOURCE path/to/db_script.sql;
+CREATE DATABASE bms;
+USE bms;
+SOURCE path/to/db.sql;
 ```
 3. Update Database Configuration:
 - Open DBConnect.java located in the src/com/yourpackage/database directory.
 - Update the database URL, username, and password to match your MySQL server configuration.
 ```
-private static final String URL = "jdbc:mysql://localhost:3306/bank_db";
-private static final String USER = "your_mysql_username";
-private static final String PASSWORD = "your_mysql_password";
+public DBConnect() throws ClassNotFoundException{
+    try{
+        Class.forName("com.mysql.cj.jdbc.Driver");
+        connect = DriverManager.getConnection("jdbc:mysql://localhost:3306/bms","root","12345678");
+        st = connect.createStatement();
+        }
+    catch(SQLException ex){
+        System.out.println(ex);
+    }
+}
 ```
 4. Run the Application:
 - Open the project in NetBeans IDE.
